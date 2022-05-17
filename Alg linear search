@@ -1,0 +1,9 @@
+linea search
+1.set i to 1
+2.if i>n then go to step 7
+3.if a[i]=x than go to step 6
+4.set i to i+1
+5.go to step 2
+6.print element x found at index i and go to step 8
+7.print element not found.
+8.exit.
