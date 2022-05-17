@@ -1,0 +1,5 @@
+Algorithm to traverse array?
+1.Repeat For I = LB to UB
+2.Apply PROCESS to A[I]
+[End of For Loop]
+3.Exit
