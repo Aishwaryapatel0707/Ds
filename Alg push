@@ -1,0 +1,9 @@
+push
+
+Procedure: PUSH (STACK,TOP,MAX,ITEM)
+ //This procedure pushes an ITEM onto stack.
+1.	[Stack already full]
+ If TOP=MAX, then Print: UNDERFLOW, and Return.
+2.	Set TOP: =TOP+1 [Increase TOP by 1]
+3.	SetSTACK [TOP]:=ITEM. [Insert ITEM in new TOP position]
+4.	Return.
