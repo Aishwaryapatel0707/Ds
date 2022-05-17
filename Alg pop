@@ -1,0 +1,9 @@
+pop
+
+Procedure: POP (STACK,TOP,ITEM)
+ //This procedure Deletes the top element of STACK and assigns it to the variable ITEM.
+1.[Stack Empty or Not]
+ If TOP=0, then Print: OVERFLOW, and Return.
+2.Set ITEM: =STACK [TOP]. [Assigns Top element to ITEM] 
+3.Set TOP: =TOP-1 [Decrease TOP by 1]
+4.Return.
