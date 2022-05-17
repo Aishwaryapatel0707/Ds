@@ -1,0 +1,6 @@
+Algorithm Insert_front (DEQUE)
+ step1. Start
+ step2. Check the queue is full or not as if (r == max-1) &&(f==0)
+step3. If false update the pointer f as f= f-1
+step4. Insert the element at pointer f as Q[f] = element
+step5. Stop
