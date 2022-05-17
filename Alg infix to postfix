@@ -1,0 +1,17 @@
+Write algorithm for infix to postfix evaluation?
+Algorithm Evaluate( ):
+Description: 
+Here Pis apostfix expression and this algorithm evaluates it.
+1.Add a “)” right parenthesis at the end of P.
+2.Scan P from left to right and repeat steps 3 & 4 for each element of P until “)” is 
+Encountered.
+3.If an operand is encountered, push it onto stack.
+4.If an operator is encountered then:
+(a)Pop the top two elements from stack, where A is the
+Top element and B is the next to top element.
+(b)Evaluate B A.
+©Place the result of (b)back on stack.
+[End of Step 4 If]
+[End of step 2 For Loop]
+5.Set VALUE equal to the top element on the stack.
+6.Exit.
