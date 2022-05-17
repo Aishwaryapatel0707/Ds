@@ -1,0 +1,7 @@
+Alogrithm insert_back (DEQUE)
+Step1: Start
+Step2: Check the queue is full or not as if (r == max-1) 
+&&(f==0) if yes queue is full
+Step3: If false update the pointer r as r= r+1
+Step4: Insert the element at pointer r as Q[r] = element
+Step5: Stop
