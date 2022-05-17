@@ -1,0 +1,8 @@
+Alogrithm Remove_back(DEQUE)
+Step1.Start
+Step2.Check the queue is empty or not as if (f == r) if yes queue 
+Is empty
+Step3.If false delete element at position r as element = Q[r]
+Step4.Update pointer r as r = r-1
+Step5.If (f == r ) reset pointer f and r as f = r= -1
+Step6.Stop
