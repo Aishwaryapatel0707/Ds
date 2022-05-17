@@ -1,0 +1,8 @@
+Alogrithm Remove_front (DEQUE)
+Step1: Start
+Step2: Check the queue is empty or not as if (f == r) if yes queue is 
+Empty.
+Step3: If false update pointer f as f = f+1 and delete element at 
+Position f as element = Q[f]
+Step4: If ( f== r) reset pointer f and r as f = r = -1
+Step5: Stop
