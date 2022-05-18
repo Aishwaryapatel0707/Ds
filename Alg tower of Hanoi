@@ -1,0 +1,7 @@
+1.if n!=0
+2.else 
+3.tower (n-1,beg,end,aux)
+4.move disk from beg to end.
+5.tower (n-1,axu,beg,end) 
+[end if] 
+6.stop
